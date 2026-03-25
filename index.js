@@ -17,6 +17,7 @@ function multiply(a,b){
 
 multiply(10,3)
 
+multiply(10,3)
 
 add(2,5)
 add(10,23)
