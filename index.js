@@ -10,6 +10,18 @@ function add(a,b){
 function sub(a,b){
     return a-b
 }
+
+function multiply(a,b){
+    if ( a< 0  || b < 0){
+        throw new Error("No negative allowed")
+    }
+    return a*b
+}
+
+multiply(10,3)
+
+multiply(10,3)
+
 add(2,5)
 add(10,23)
 add(34,45)
